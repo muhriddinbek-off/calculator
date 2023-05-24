@@ -29,7 +29,7 @@ class _MyWidgetState extends State<MyWidget> {
           ),
           onPressed: () {
             setState(() {
-              if (controller.text[controller.text.length - 1] == "X"|| 
+              if (controller.text[controller.text.length - 1] == "x"|| 
                   controller.text[controller.text.length - 1] == "/" ||
                   controller.text[controller.text.length - 1] == "%" ||
                   controller.text[controller.text.length - 1] == "-" ||
@@ -212,7 +212,7 @@ class _MyWidgetState extends State<MyWidget> {
                 bottom(Colors.blueAccent, '4', Colors.white),
                 bottom(Colors.blueAccent, '5', Colors.white),
                 bottom(Colors.blueAccent, '6', Colors.white),
-                aperator('X'),
+                aperator('x'),
               ],
             ),
             Row(
